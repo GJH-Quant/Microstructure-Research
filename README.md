@@ -9,10 +9,15 @@
 
 ## Repo Structure
 `Features/`  : Order Book + Trades + MBO + Flow Features
+
 `Labels/`    : Event/Label Builders (Classifiers, Regressors, Fills, Toxicity, Spread Dynamics)
+
 `Models/`    : Baselines + Train Scripts
+
 `Evaluation/`: Walk-Forward + Diagnostics
+
 `Utils/`     : Shared Helpers (time alignment, IO, config)
+
 `Notes/`     : Research Notes + Assumptions
 
 ## Disclaimer
