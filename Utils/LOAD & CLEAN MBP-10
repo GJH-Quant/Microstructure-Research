@@ -1,1 +1,8 @@
+## ===== IMPORTING MBP-10 AND CLEANING ===== ##
+# DATA FROM DATABENTO #
 
+import pandas as pd
+import numpy as np
+from pathlib import Path
+
+def load_mbp10_data(input_dir: Path, output_dir: Path) -> pd.DataFrame:
